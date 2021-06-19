@@ -12,19 +12,22 @@
     <div class="wrapper">
         <header>
             <h1>
-                <a href="/">My.Tech.Blog</a>
+                <a class="nav-text" href="/">My.Tech.Blog</a>
             </h1>
             <nav>
+                <a class="nav-text" href="/home">Home</a> 
+                <a class="nav-text" href="/dashboard">Dashboard</a> 
                 {{#if loggedIn}}
-                <a href="/dashboard">Dashboard</a> 
                 <button id="logout" class="btn-logout">Logout</button>
                 {{else}}
-                <a href="/login">Login</a>
+                <a class="nav-text" href="/login">Login</a>
                 {{/if}}
             </nav>
         </header>
         <main>
+
         {{{ body }}}
+
         </main>
         <footer>
         Thanks for blogging with us!

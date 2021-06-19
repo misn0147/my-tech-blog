@@ -10,7 +10,7 @@ body, html {
     color: saddlebrown;
 }
 
-a {
+.nav-text {
     text-decoration: none;
     color: blanchedalmond;
     font-weight: bold;
@@ -18,8 +18,12 @@ a {
     font-size: 24px;
 }
 
-a:hover {
+.nav-text:hover {
     color: #75a4dd;
+}
+
+a {
+    color: saddlebrown;
 }
 
 button {
