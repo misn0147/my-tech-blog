@@ -37,6 +37,21 @@ button:hover {
     background-color: #3486eb;
 }
 
+.btn-logout {
+    background-color: saddlebrown !important;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+    transition: color .1s;
+    font-size: 24px;
+}
+
+.btn-logout:hover {
+    background-color: saddlebrown !important;
+    color: #75a4dd;
+}
+
+
 .post-list {
     margin: 0;
     padding: 0;
@@ -102,6 +117,9 @@ main {
     transition: color .1s;
     margin-left: 16px;
 }
+
+
+
 
 .btn-no-style:hover {
     background: none;
