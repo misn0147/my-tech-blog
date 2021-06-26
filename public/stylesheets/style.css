@@ -198,8 +198,9 @@ background-color: #1f9c13;
     opacity: .6;
 }
 
-.new-post-form input {
-    width: 300px;   
+.new-post-form textarea {
+    min-width: 50%;
+    min-height: 100px; 
 }
 
 .edit-post-form {
